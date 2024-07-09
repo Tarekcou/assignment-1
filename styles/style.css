@@ -176,6 +176,12 @@
 }
 .body-1 button, .body-2 button, .body-3 button {
   margin: 0;
+  cursor: pointer;
+}
+.body-1 a,
+.body-2 a,
+.body-3 a {
+    text-decoration: none;
 }
 
 /*inspiration section */
@@ -371,6 +377,25 @@ width: 700px;
     letter-spacing: 0%;
     text-align: start;
 }
+.next-target-card-1 a,
+.next-target-card-2 a,
+.next-target-card-3 a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+
+  /* Learn More */
+  width: 220px;
+  height: 18px;
+
+  margin: 18px 0px;
+
+}
 
 .footer{
   background: linear-gradient(rgba(14, 14, 15, 0.45),rgba(20, 21, 21, 0.45)),
@@ -435,7 +460,7 @@ width: 700px;
 }
 .footer button{
   border-radius: 8px;
-  
+  cursor: pointer;
     background: rgb(255, 255, 255);
     /* Frame 8 */
       width: 100px;
@@ -452,4 +477,16 @@ width: 700px;
       flex: none;
       order: 1;
       flex-grow: 0;
+}
+.footer-bottom{
+        padding: 64px 48px 64px 48px;
+            margin: 0 50px;
+        display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+}
+.footer-bottom img{
+  margin: 10px;
+  cursor: pointer;
 }
