@@ -144,7 +144,7 @@
     justify-content: center;
     align-items: start;
     gap: 10px;
-    padding: 0 100px;
+    margin: 0 80px;
     /* padding: 0 150px; */
 }
 .body-1 h1, .body-2 h1, .body-3 h1{
