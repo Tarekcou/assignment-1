@@ -98,12 +98,12 @@
 
 .hero{
       margin: 0 120px;
-      
 }
 
 .hero-div{
      margin: 90px 0 90px 0;
     border-radius: 16px;
+          padding: 20px 0px;
       background: rgba(13, 19, 33, 0.02);
 }
 .hero-section .header-title{
