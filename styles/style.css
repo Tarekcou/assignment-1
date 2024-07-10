@@ -46,7 +46,6 @@
   margin: 0 auto;
 }
 .banner{
-  max-height: 580px;
   background: url('../assets/Hero-bg.png');
   margin: 0 auto;
   display: flex;
@@ -55,12 +54,12 @@
   justify-content: center;
 }
 .banner-body{
-  max-height: 480px;
     display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       gap: 20px;
+      padding: 100px;
 }
 .banner-body img{
   /* Group */
@@ -71,11 +70,11 @@
   text-align: center;
   color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 800;
     line-height: 52px;
     letter-spacing: 0%;
-        padding: 0 300px;
+    text-wrap: wrap;
 }
 .banner-body p{
     text-align: center;
@@ -242,22 +241,22 @@
   
 }
 .target-card{
-  display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 15px;
-   width: 100% ;
+  display: grid;
+ display: flex;
+ flex: 1;
+ gap: 15px;
+   /* height: 100%; */
    /* max-height: 70%; */
 
 }
 .target-card-1,
-.target-card-2,
+.target-card-2,      
 .target-card-3{
   border-radius: 16px;
   padding: 20px;
   display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
 
 
